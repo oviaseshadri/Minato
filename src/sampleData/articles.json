@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Exploring React Hooks",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "date": "2023-11-18"
+  },
+  {
+    "title": "The Future of Artificial Intelligence",
+    "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "date": "2023-11-17"
+  },
+  {
+    "title": "A Culinary Adventure in Italy",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "date": "2023-11-16"
+  },
+  {
+    "title": "Fitness Tips for a Healthy Lifestyle",
+    "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2023-11-15"
+  },
+  {
+    "title": "The Thrill of Extreme Sports",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "date": "2023-11-14"
+  }
+]

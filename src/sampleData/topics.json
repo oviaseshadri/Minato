@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Technology",
+    "image": "../images/technology.png"
+  },
+  {
+    "name": "Science",
+    "image": "../images/science.png"
+  },
+  {
+    "name": "Travel",
+    "image": "../images/travel.png"
+  },
+  {
+    "name": "Food",
+    "image": "../images/food.png"
+  },
+  {
+    "name": "Sports",
+    "image": "../images/sports.png"
+  }
+]

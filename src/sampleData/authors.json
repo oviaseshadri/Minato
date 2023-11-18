@@ -1,0 +1,52 @@
+[
+  {
+    "firstName": "Maria",
+    "lastName": "Rodriguez",
+    "profilePicture": "../../images/femaleuser.png"
+  },
+  {
+    "firstName": "Mohammed",
+    "lastName": "Al-Farsi",
+    "profilePicture": "../../images/maleuser.png"
+  },
+  {
+    "firstName": "Yuki",
+    "lastName": "Tanaka",
+    "profilePicture": "../../images/femaleuser.png"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Mendez",
+    "profilePicture": "../../images/maleuser.png"
+  },
+  {
+    "firstName": "Ananya",
+    "lastName": "Patel",
+    "profilePicture": "../../images/femaleuser.png"
+  },
+  {
+    "firstName": "Javier",
+    "lastName": "Garcia",
+    "profilePicture": "../../images/maleuser.png"
+  },
+  {
+    "firstName": "Sakura",
+    "lastName": "Kim",
+    "profilePicture": "../../images/femaleuser.png"
+  },
+  {
+    "firstName": "Rajesh",
+    "lastName": "Kumar",
+    "profilePicture": "../../images/maleuser.png"
+  },
+  {
+    "firstName": "Fatima",
+    "lastName": "Ahmed",
+    "profilePicture": "../../images/femaleuser.png"
+  },
+  {
+    "firstName": "Adewale",
+    "lastName": "Ogunlade",
+    "profilePicture": "../../images/maleuser.png"
+  }
+]

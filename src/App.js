@@ -1,14 +1,18 @@
-import React from 'react';
-// import Navbar from './components/Navbar'; 
-import ConnectWallet from './components/ConnectWallet'; 
+import React from "react";
+import { ThemeProvider } from "./context/WalletContext";
+import RouterComponent from "./components/RouterComponent";
 
 function App() {
   return (
-    <div className="App">
-      {/* Your other components */}
-      <ConnectWallet />
-      {/* Rest of your app */}
-    </div>
+    <ThemeProvider>
+      <div className="App" >
+        {/* Your other components */}
+        
+        
+        <RouterComponent />
+        {/* Rest of your app */}
+      </div>
+    </ThemeProvider>
   );
 }
 
