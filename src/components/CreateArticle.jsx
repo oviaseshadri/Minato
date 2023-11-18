@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
+// import { connect, disconnect } from "starknetkit";
+// import { post_content } from '../sampleinteractionscript';
+
+
+
 
 const ArticleForm = () => {
   const [title, setTitle] = useState('');
   const [article, setArticle] = useState('');
   const [keywords, setKeywords] = useState('');
 
+
+  
   const handleTitleChange = (event) => {
     setTitle(event.target.value);
   };
@@ -17,8 +24,9 @@ const ArticleForm = () => {
     setKeywords(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
+    console.log(event,"event")
 
     // Perform any additional validation or submission logic here
 
@@ -32,6 +40,12 @@ const ArticleForm = () => {
     console.log('Title:', title);
     console.log('Article:', article);
     console.log('Keywords:', keywords);
+
+    // const connection = await connect({ modalMode: "neverAsk" });
+
+    // await post_content(title,article,connection)
+
+
   };
 
   return (

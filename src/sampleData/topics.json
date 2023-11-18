@@ -18,5 +18,9 @@
   {
     "name": "Sports",
     "image": "../images/sports.png"
+  },
+  {
+    "name": "Climate",
+    "image": "../images/sports.png"
   }
 ]
