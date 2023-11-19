@@ -1,7 +1,8 @@
 import React from 'react';
-import AuthorPanel from './AuthorPanel'; // You'll need to create AuthorPanel, TopicPanel, and ArticlePanel components
+import AuthorPanel from './AuthorPanel'; 
 import TopicPanel from './TopicPanel';
 import ArticlePanel from './ArticlePanel';
+
 
 const Dashboard = () => {
   return (

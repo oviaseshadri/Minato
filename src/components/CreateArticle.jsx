@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import { connect, disconnect } from "starknetkit";
-// import { post_content } from '../sampleinteractionscript';
+import { connect } from "starknetkit";
+import { post_content } from '../sampleinteractionscript';
 
 
 
@@ -41,9 +41,9 @@ const ArticleForm = () => {
     console.log('Article:', article);
     console.log('Keywords:', keywords);
 
-    // const connection = await connect({ modalMode: "neverAsk" });
+    const connection = await connect({ modalMode: "neverAsk" });
 
-    // await post_content(title,article,connection)
+    await post_content(title,article,connection)
 
 
   };

@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import articlesData from '../sampleData/articles.json';
 import ArticleDetails from './ArticleDetails';
+import { get_content } from '../sampleinteractionscript';
 
 const ArticlePanel = () => {
   const [selectedArticle, setSelectedArticle] = useState(null);
@@ -12,6 +13,15 @@ const ArticlePanel = () => {
   const handleCloseDetails = () => {
     setSelectedArticle(null);
   };
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      const connection = await connect({ modalMode: "neverAsk" });
+      let articlesData = await get_content(connection)
+
+    };
+    fetchArticles();
+  }, []);
 
   return (
     <div>
